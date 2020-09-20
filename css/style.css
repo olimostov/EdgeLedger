@@ -21,6 +21,7 @@ a {
 h1,
 h2 {
   line-height: 1.2;
+  font-weight: 300;
 }
 p {
   padding: 10px 0;
@@ -75,6 +76,7 @@ img {
 }
 .hero .content h1 {
   font-size: 55px;
+  font-weight: 100;
 }
 .hero .content p {
   font-size: 23px;
@@ -92,6 +94,10 @@ img {
 }
 .hero * {
   z-index: 10;
+}
+.hero.blog {
+  height: 30vh;
+  background: url('../images/home/blog.jpg') no-repeat center center/cover;
 }
 /* About Icons */
 .icons {
@@ -165,6 +171,26 @@ img {
   outline-color: var(--primary-color);
   border-radius: 5px;
 }
+/* Post */
+.post {
+  padding: 50px 30px;
+}
+.post h2 {
+  font-size: 40px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+.post .meta {
+  margin-bottom: 30px;
+}
+.post img {
+  width: 300px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto 30px;
+}
 /* Footer */
 .footer {
   display: flex;
@@ -206,15 +232,4 @@ img {
   .team img {
     width: 80%;
   }
-}
-/* Blog Page */
-.hero.blog {
-  height: 30vh;
-  background: url('../images/home/blog.jpg') no-repeat center center/cover;
-}
-.hero.blog h1 {
-  font-weight: 100;
-}
-.blogpost-1 .column-2 i {
-  display: inline;
 }
