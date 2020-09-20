@@ -47,6 +47,7 @@ img {
   padding: 10px 20px;
   margin: 0 5px;
 }
+.navbar .current,
 .navbar a:hover {
   border-bottom: 2px solid var(--primary-color);
 }
@@ -205,4 +206,15 @@ img {
   .team img {
     width: 80%;
   }
+}
+/* Blog Page */
+.hero.blog {
+  height: 30vh;
+  background: url('../images/home/blog.jpg') no-repeat center center/cover;
+}
+.hero.blog h1 {
+  font-weight: 100;
+}
+.blogpost-1 .column-2 i {
+  display: inline;
 }
